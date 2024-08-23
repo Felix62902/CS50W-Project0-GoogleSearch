@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="../search/advanced-search.css" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+initial-scale=1.0"
+    />
+  </head>
+  <body class="main">
+    <script src="search.html"></script>
+    <div class="navBar">
+      <h1 style=" margin-right: auto; margin-left: 28px; font-size: 36px; font-weight: bold;">Google</h1> 
+      <button class="navButton">
+        <a href="index.html"> Search</a>
+      </button>
+
+      <button class="navButton" style="margin-right: 12px">
+        <a href="image-search.html">Image Search</a>
+      </button>
+
+    </div>
+
+    <h1 style="font-size: 40px; size: 40px; padding: 30px 0 30px 62px; color:#4285f4">Advanced Search</h1>
+    <hr>
+
+    <h1 style="padding:40px 0 40px 62px " >Find pages with...</h1>
+
+    <form class="grid-container" action="https://google.com/search" name="f">
+
+            <label for="allTheseWords">all these words:</label>
+            <input type="text" id="allTheseWords" name="as_q" class="input" required/>
+
+        
+            <label for="input2">this exact word or phrase:</label>
+            <input type="text" id="input2" name="as_epq" class="input"  required/>
+
+            <label for="input3">any of these words:</label>
+            <input type="text" id="input3" name="as_oq" class="input"  required/>
+
+            <label for="input4">none of these words:</label>
+            <input type="text" id="input4" name="as_eq" class="input"  required/>
+            <div></div>
+            <input type="submit" value="advanced Search" class="searchButton" />
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+.main {
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+
+.navBar {
+  height: 50px;
+  /* background-color: #e91e63; */
+  margin-left: auto;
+  margin-right: 12px;
+  display: flex;
+  justify-content: end;
+}
+
+.navButton {
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.logo {
+  color: black;
+  font-size: 100px;
+  font-weight: bold;
+  display: inline;
+  font-family: product-sans;
+}
+
+.input {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid rgba(151, 151, 151, 0.596);
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchIcon.png");
+  background-size: 24px 24px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.searchButton {
+  padding: 10px 12px 10px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin: 0px 4px 0 4px;
+  cursor: pointer;
+}

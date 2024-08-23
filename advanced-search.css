@@ -1,0 +1,60 @@
+.grid-container {
+  margin: 0 40px 0 40px;
+  display: grid;
+  grid-template-columns: 260px 720px;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.main {
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+
+.navBar {
+  height: 50px;
+  /* background-color: #e91e63; */
+  margin-left: auto;
+  margin-right: 12px;
+  display: flex;
+  justify-content: end;
+}
+
+.navButton {
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.input {
+  /* width: 60%; */
+  border: 2px solid rgba(151, 151, 151, 0.596);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+
+  padding: 12px 20px 12px 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+  padding-left: 22px;
+}
+
+.searchButton {
+  width: 24%;
+  margin-left: auto;
+  height: 80%;
+  background-color: #8ab4f8;
+  color: white;
+  font-weight: bold;
+  padding: 10px 12px 10px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
