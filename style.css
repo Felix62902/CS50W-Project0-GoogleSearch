@@ -61,3 +61,8 @@
   margin: 0px 4px 0 4px;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+  color: blue;
+}
